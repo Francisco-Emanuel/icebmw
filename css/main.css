@@ -43,15 +43,10 @@ header {
     width: 20%;
 }
 
-.menu-logo span {
-    height: 60px;
-    width: 1px;
-    background-color: #fff;
-}
-
-.menu-logo img {
-    height: 70px;
-    width: 80px;
+#logou {
+    padding: 1rem;
+    height: 15vh;
+    width: 20vw;
 }
 
 .menu-links {

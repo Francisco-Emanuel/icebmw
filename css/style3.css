@@ -40,15 +40,10 @@ header {
     width: 20%;
 }
 
-.menu-logo span {
-    height: 60px;
-    width: 1px;
-    background-color: #fff;
-}
-
-.menu-logo img {
-    height: 70px;
-    width: 80px;
+#logou {
+    padding: 1rem;
+    height: 15vh;
+    width: 20vw;
 }
 
 .menu-links {
@@ -188,7 +183,37 @@ header {
 /*HEADER*/
 
 .quadro {
+    background-image: url(../img/prod-serv.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 40vh;
     width: 20vw;
-    background-color: red;
 }
+
+.quadro2 {
+    background-image: url(../img/seg-serv.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 20vw;
+}
+
+.quadro3 {
+    background-image: url(../img/atend-serv.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 20vw;
+}
+
+.quadro-foto2 {
+    width: 20vw;
+    height: 40vh;
+    background-color: #0066b1;
+}
+
+.quadro-txt2 {
+    position: relative;
+    right: 10vw;
+}
+

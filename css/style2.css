@@ -43,15 +43,10 @@ header {
     width: 20%;
 }
 
-.menu-logo span {
-    height: 60px;
-    width: 1px;
-    background-color: #fff;
-}
-
-.menu-logo img {
-    height: 70px;
-    width: 80px;
+#logou {
+    padding: 1rem;
+    height: 15vh;
+    width: 20vw;
 }
 
 .menu-links {
@@ -226,4 +221,32 @@ header {
     height: 20vh;
     width: 20vw;
     background-color: #0066b1;
+}
+
+@media screen and (max-width: 1400px){
+    #heroTitle {
+        right: 8vw!important;
+    }
+    #heroDesc {
+        margin-top: 10vh!important;
+    }
+    #heroDesc .col {
+        right: 15vw!important;
+    }
+    #heroBtn {
+        left: 0!important;
+    }
+    #heroDesc2 {
+        padding: 0.5rem!important;
+    }
+    .quadro-negro {
+        right: 0;
+    }
+    .quadro-negro li {
+        font-size: 12pt!important;
+        padding: 0!important;
+    }
+    #carI4 {
+        bottom: 30vh!important;
+    }
 }
